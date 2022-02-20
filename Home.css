@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+        background: linear-gradient(to right, #0f0c29 , #127af0 40%,#0f67af 60%, #0c0c0c ); 
+}
+body{
+    margin: 0%;
+    /* background: linear-gradient(45deg, #102eff, #d2379b); */
+    background-image: url(Backgrounds/Anonymous.jpg);
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    background: scroll;
+}
+
+ul{
+	display:flex;
+	height: auto;
+    width:auto;
+	margin: auto;
+	max-width: 1000px;
+	justify-content: space-between;
+	text-align: center;
+    list-style-type:armenian;
+    margin-bottom: 6px;
+
+}
+
+
+#navbar {
+	padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ffffff;
+	min-width: 80px;
+	margin: auto;
+    
+
+    
+}
+
+#navbar:hover {
+  background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+  border-radius: 6px;
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-family: Verdana;
+  box-shadow: 1px 1px 10px #6e1adb;
+  transition-duration: 500ms;
+}
+#navbar:active {
+  transform: translateY(4px);
+}
+
+h1{
+    color: #ffffff;
+    margin: 0 auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 280px;
+    font-size: 180px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+
+}
+h2{
+    text-shadow: 2px 0 10px #1094ec;
+}
+
+
+/*	
+    
+    3D Effect
+
+*/
+#text3d {
+    background: -webkit-linear-gradient(rgb(14, 149, 228), rgb(221, 14, 135));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #b8b8b8, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+ }
+
+
+ #text3d:hover{  
+    transition-duration: 50ms;
+    border: 5px;
+    border-radius: 25px;
+    border-style:outset;
+    box-shadow:
+    inset 0 0 100px #fff,      /* inner white */
+    inset -10px 0 50px #0ff,  /* inner right cyan short */
+    inset -10px 0 30px #0ff, /* inner right cyan broad */
+    0 0 10px rgb(221, 20, 137),            /* outer white */
+    -5px 0 50px #f0f,        /* outer left magenta */
+    5px 0 50px #0ff;         /* outer right cyan */
+ 
+
+ }
+
+
+
+
+#text-article{
+    box-shadow:3px 5px 10px #10ec52;
+    padding: 10px;
+    font-style: oblique;
+    font-size: larger;
+    border: rgba(153, 205, 50, 0.699);
+    border-style:groove;
+    border-radius: 5px;
+    background-color: rgba(153, 205, 50, 0.836);
+    background-blend-mode: multiply; 
+    margin-left: 11px;
+    margin-right: 10px;
+    text-align: justify;
+}
+#text-article:hover{
+    transition-duration: 1080ms;
+    background:linear-gradient(to right,rgb(35, 212, 153),rgb(34, 106, 240),rgba(25, 114, 247, 0.822)) ;
+    font-weight:400;
+    box-shadow:
+    inset 0 0 20px #fff,      /* inner white */
+    inset -10px 0 40px #0ff,  /* inner right cyan short */
+    inset -10px 0 30px #0ff, /* inner right cyan broad */
+    0 0 10px rgb(221, 20, 137),            /* outer white */
+    -5px 0 50px #f0f,        /* outer left magenta */
+    5px 0 50px #0ff;         /* outer right cyan */
+
+}
+
+#list_features{
+    border: #16add3;
+    border-radius:20px;
+    box-shadow: 0 0 20px #1094ec;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0e7fc5a6;
+    font-size: 21px;
+    font-family: 'Gill Sans MT', 'Trebuchet MS';
+    list-style: radial-gradient(circle, #102eff, #d2379b 100%);
+    
+}
+#Web3_img{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    border: 10px;
+    border-radius: 2px;
+    border-style:outset;
+    width: 500px;
+    height: auto;
+}
+
+.outer{
+    width: 525px;
+    height: auto;
+    margin-left: 500px;
+    border-radius: 8px;
+    position: relative;
+    background: linear-gradient(to right, #102eff, #d2379b 100%);
+    padding: 3px;
+}
+.inner{
+    background: rgba(255, 255, 255, 0);
+    padding:2px;
+
+}
+.player{
+    border: 5px;
+    border-radius: 2px;
+    border-style: groove;
+    margin-left: 320px;
+    box-shadow: 1px 0 10px #102eff;
+    margin-top: auto;
+    width: 720px;
+    height: auto;
+
+}
+.name{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 0 1px 1px #8b8b8b;
+}
+#form{
+    background:url('Backgrounds/Background\ for\ Contact\ Form.webp')0 24% ;
+    background-blend-mode: hard-light;
+    box-shadow: 0 0 9px #0077ff;
+    margin-top: 15px;
+    border: 2px;
+    border-radius: 5px;
+    place-content: left;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  position: relative;
+  border-color: #0c0c0c;
+  box-shadow: 0 0 5px #0c0c0c;
+  background-color: rgba(107, 101, 101, 0.322);
+}
+
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #ffffff9c;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #000000e3;  } 
