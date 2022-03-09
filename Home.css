@@ -108,8 +108,9 @@ h2{
       8px 28px 35px rgba(0, 0, 0, 0.9);
  }
 
-
- #text3d:hover{  
+ #text3d:hover{ 
+     width:70rem;
+    animation: typing, 2s steps(6) .5s step-end 10s alternate;
     transition-duration: 50ms;
     border: 5px;
     border-radius: 25px;
@@ -243,3 +244,24 @@ fieldset, label { margin: 0; padding: 0; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #000000e3;  } 
+
+.custom-cursor {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 0 10px;
+  }
+  
+  .card {
+      align-items: center;
+      justify-content: center;
+      background-color: #D29A5A;
+      margin-right: 10px;color: #fff;
+    }
+
+  .card-emoji-cursor {
+    background-color: #D29B22;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='48' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👨‍💻</text></svg>"), auto;
+  }
