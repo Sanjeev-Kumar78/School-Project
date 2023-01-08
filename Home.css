@@ -218,6 +218,7 @@ h2{
     background:url('Backgrounds/Background\ for\ Contact\ Form.webp')0 24% ;
     background-blend-mode: hard-light;
     box-shadow: 0 0 9px #0077ff;
+    color: wheat;
     margin-top: 15px;
     border: 2px;
     border-radius: 5px;
